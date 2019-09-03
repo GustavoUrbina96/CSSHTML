@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <section>
+    <section style="background-color: #FCFCFC">
         <ul>
             <li class="lopper"><a>Lopper</a></li>
             <li><a>Home</a></li>
@@ -31,40 +31,251 @@
             <label>WE BUILD GREAT BUSINESS</label>
         </div>
     </section>
-    <img class="img-red" src="C:\Users\gaurbina\Documents\tarea 2/red.png">
-    <img src="C:\Users\gaurbina\Documents\tarea 2/Vector.png">
-    <section class="address">
-        <h5>We build great business</h5>
-        <div>
-            <i class="fa fa-map-marker" style="font-size:24px; color: #F61067"></i>
-            <label>OUR OFFICE</label>
-            <p>91 E. Lexington Street <br>Apt 688 <br>Gibsonia, PA 15044</p>
+    <img class="img-red" style="margin-top: -0.44%;" src="C:\Users\gaurbina\Documents\tarea 2/red.png">
+    <div class="pin">
+        <img class="pin-location" src="C:\Users\gaurbina\Documents\tarea 2/Vector.png">
+        <section class="address">
+            <h5>We build great business</h5>
+            <div>
+                <i class="fa fa-map-marker icons" style="font-size: 36px;"></i>
+                <label>OUR OFFICE</label>
+                <p>91 E. Lexington Street <br>Apt 688 <br>Gibsonia, PA 15044</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o icons"></i>
+                <label>CONTACT@LOP.COM</label>
+            </div>
+            <div>
+                <i class="fa fa-mobile-phone icons" style="font-size: 36px;"></i>
+                <label>(01)666-693-456</label>
+            </div>
+        </section>
+    </div>
+    <div class="message">
+        <div class="infoContact">
+            <h3>Get in touch with us</h3>
+            <div style="float: left; width: 50%">
+                <label>your name</label><br>
+                <input type="text" placeholder="Your name" class="input-text"><br>
+                <label>your Email</label><br>
+                <input type="text" placeholder="Email placeholder" class="input-text">
+            </div>
+            <div style="float: right; width: 50%; margin-top: -2%;">
+                <label style="text-align: right">your message</label><br>
+                <textarea placeholder="Write your message"></textarea>
+                <button class="btn-send">SEND MESSAGE</button>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div style="float: left; margin-left: 12%; max-width: 11vw;">
+            <label>Lopper</label>
+            <p>Eu augue ut lectus arcu bibdendum at.</p>
         </div>
         <div>
-            <i class="fa fa-envelope-o" style="font-size:24px; color: #F61067"></i>
-            <label>CONTACT@LOP.COM</label>
-        </div>
-        <div>
-            <i class="fa fa-mobile-phone icons" style="font-size:36px; color: #F61067"></i>
-            <label>(01) 666 - 693 - 456</label>
+            <table>
+                <tr>
+                    <th>Menu</th>
+                    <th style="margin-left: 10vw;">Services</th>
+                    <th>Contact us</th>
+                    <th>Follow us</th>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>Lorem</td>
+                    <td><i class="fa fa-envelope-o icons"></i> Contact@lop.com</td>
+                    <td>ICONS APPS</td>
+                </tr>
+                <tr>
+                    <td>About</td>
+                    <td>Ipsum</td>
+                    <td><i class="fa fa-bars icons"></i>856-689-456</td>
+                </tr>
+                <tr>
+                    <td>Services</td>
+                    <td>Dolor</td>
+                </tr>
+                <tr>
+                    <td>News</td>
+                    <td>Sit Amet</td>
+                </tr>
+                <tr>
+                    <td>Gallery</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                </tr>
+            </table>
         </div>
     </section>
+
 </body>
 
 
 </html>
 
 <style>
+    .footer {
+        color: #FCFCFC;
+        margin-top: 50vw;
+    }
+
+    .footer th {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12.6px;
+        line-height: 26px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        padding-bottom: 2vw;
+    }
+
+    .footer table{
+        margin-left: 35vw;
+    }
+    .footer label {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 43px;
+        letter-spacing: 2px;
+    }
+
+    .footer p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16.2px;
+        line-height: 26px;
+    }
+
+    .pin {
+        height: 46%;
+        margin-top: -1%;
+        background-color: #FCFCFC;
+    }
+
+    .btn-send {
+        background: #F61067;
+        border-color: #F61067;
+        border-radius: 36px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 2em;
+        display: flex;
+        align-items: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FCFCFC;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    textarea {
+        width: 60%;
+        height: 15vw;
+        margin-left: 8%;
+        font-size: 20px;
+
+    }
+
+    .input-text {
+        border: 1px solid #F4F4ED;
+        box-sizing: border-box;
+        text-align: left;
+        margin-left: 18%;
+        width: 60%;
+        height: 4vw;
+        font-size: 20px;
+        padding-left: 2%;
+    }
+
+    ::placeholder {
+        color: #9B94A3;
+        opacity: 0.5;
+    }
+
+    .message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        white-space: pre-line;
+    }
+
+
+    .message label {
+        margin-left: 18%;
+        color: #FCFCFC;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12.6px;
+        line-height: 26px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+    }
+
+    .message h3 {
+        margin-top: 10%;
+        margin-left: 8%;
+        color: #FCFCFC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .message .infoContact {
+        max-width: 80%;
+        position: absolute;
+        width: 80%;
+        height: 35%;
+        left: 12%;
+        top: 57%;
+        background: #150433;
+    }
+
     .pin-location {
-        /*Aqui va la location del pin en la pantalla*/
+        position: absolute;
+        right: 92.57%;
+        top: 28%;
+        bottom: 62.4%;
     }
 
     .address {
-        /*Aqui va el pocicionamiento de la info*/
+        position: absolute;
+        width: 264px;
+        left: 147px;
+        top: 25%;
+
+    }
+
+    .address p {
+        margin-left: 20%;
+        color: gray;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .address label {
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 37px;
+        letter-spacing: 4px;
     }
 
     .address h5 {
         font-size: 27px;
+    }
+
+    .address .icons {
+        margin-right: 10%;
+        font-size: 24px;
+        color: #F61067;
     }
 
     .img-red {
@@ -112,6 +323,7 @@
 
     body {
         margin: 0;
+        background-color: #30124E;
         height: 250vh;
         width: 100%;
         position: relative;
